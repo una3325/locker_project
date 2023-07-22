@@ -1,0 +1,83 @@
+.lockernoimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    margin: 0 auto; /* 수직 및 수평 여백을 0으로 설정 */
+  }
+
+  .vertical-line {
+    border-left: 1px solid rgb(113, 113, 113);
+    height: 700px; /* 세로선의 높이 조정 */
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .SelectOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 100px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .form-group select,
+  .form-group input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .join button {
+    padding: 10px 20px;
+    background-color: #86b6e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .join button:hover {
+    background-color: #004bad;
+  }
+
+  /* 옵션 CSS */
+  .select-wrapper {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  select {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #fff;
+    outline: none;
+  }

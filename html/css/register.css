@@ -1,0 +1,77 @@
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid rgb(211, 211, 211);
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+
+  .box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+    margin-bottom: 20px;
+  
+  }
+
+  .scrollable-content {
+    font-size: 14px;
+  }
+
+  .join {
+    text-align: center;
+  }
+
+  .join button {
+    padding: 10px 20px;
+    background-color: #86b6e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .join button:hover {
+    background-color: #004bad;
+  }
+
+  .loginpage {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+  }

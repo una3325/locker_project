@@ -1,0 +1,84 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ededed;
+    padding: 10px;
+  }
+  
+  /* 네비게이션 링크 스타일 */
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .navbar a.active {
+    color: rgb(0, 255, 55); 
+    font-weight: bold;
+  }
+ 
+
+  
+  /* 호버 효과 스타일 */
+  .navbar a:hover {
+    color: #ff2828;
+  }
+
+  .navbar .nav-link1,
+  .navbar .nav-link2,
+  .navbar .nav-link3,
+  .navbar .nav-link4 {
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+
+  
+.navbar .nav-link5 {
+    margin-left: auto;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* 또는 다른 적절한 값을 지정하세요 */
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: row;
+  }
+  
+  
+  #map {
+    border: 2px solid black;
+    margin: auto
+
+  }
+  
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    padding: 5px;
+    text-align: center;
+    color: #000000;
+    font-size: 10px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-decoration: underline;
+  }
+  
+  .text{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    font-size:large;
+    color:#000000;
+    text-decoration: none;
+  }

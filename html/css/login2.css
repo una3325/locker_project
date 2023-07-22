@@ -1,0 +1,80 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+.loginmain {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 2px solid rgb(211, 211, 211);
+}
+
+.login-container {
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.id,
+.passwd {
+  margin-bottom: 15px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.remember {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.remember label {
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+
+.remember input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+.search {
+  margin-bottom: 10px;
+}
+
+.search a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+.login input[type='submit'] {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #86b6e6;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type='submit']:hover {
+  background-color: #004bad;
+}
